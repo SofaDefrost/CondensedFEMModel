@@ -1,0 +1,12 @@
+#pragma once
+
+#include <sofa/config.h>
+
+#define CondensedFEMModel_VERSION @PROJECT_VERSION@
+
+#ifdef SOFA_BUILD_CondensedFEMModel
+#  define SOFA_TARGET @PROJECT_NAME@
+#  define CondensedFEMModel_API SOFA_EXPORT_DYNAMIC_LIBRARY
+#else
+#  define CondensedFEMModel_API SOFA_IMPORT_DYNAMIC_LIBRARY
+#endif

@@ -1,0 +1,9 @@
+qglviewer
+*.py.log
+*.ini
+*.pyc
+*.xml
+*.iml
+*-shm
+*-wal
+
