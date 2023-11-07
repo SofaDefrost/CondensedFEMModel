@@ -6,4 +6,4 @@ qglviewer
 *.iml
 *-shm
 *-wal
-
+*.db
